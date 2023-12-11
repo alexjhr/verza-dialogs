@@ -1,6 +1,14 @@
 # verza-dialogs
 Shows the player a dialog box.
 
+## Preview
+## Dialog Style Msgbox
+| Style | Preview |
+| ------ | ------ |
+| Msgbox | ![Msgbox Preview](https://github.com/alexjhr/verza-dialogs/blob/main/example-1.jpg?raw=true) |
+| Input | ![Input Preview](https://github.com/alexjhr/verza-dialogs/blob/main/example-2.jpg?raw=true) |
+| Password | ![Input Preview](https://github.com/alexjhr/verza-dialogs/blob/main/example-3.jpg?raw=true) |
+
 ## Installation
 ### Client Example
 ```js
