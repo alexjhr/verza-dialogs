@@ -36,7 +36,7 @@ export default function DialogComponentRender({ caption, text, style, button1, b
                     <p className="text">{text}</p>
                     {(style === EDialogStyle.Input || style === EDialogStyle.Password) && (
                         <div className="inputContainer">
-                            <input autoFocus type="text" className="input" value={inputValue} onChange={handleChange}/>
+                            <input autoFocus type={style === EDialogStyle.Input ? 'text' : 'password'} className="input" value={inputValue} onChange={handleChange}/>
                         </div>
                     )}
                     <div className="buttons">
