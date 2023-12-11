@@ -1,0 +1,65 @@
+.dialogContainer {
+    font-family: inherit;
+    font-size: 16px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dialog {
+    min-width: 10%;
+    background-color: rgba(0,0,0,.60);
+}
+.dialog .title {
+    padding: .25em;
+    padding-left: .5em;
+    background-color: rgba(0,0,0,.60);
+}
+.dialog .body {
+    min-height: 25%;
+    padding: .25em .5em;
+}
+.dialog .text {
+    font-size: .95em;
+    padding: 0 .5em;
+    padding-bottom: .25em;
+    color: #b6c0d1;
+    text-shadow: 1px 0 #000, -1px 0 #000, 0 1px #000, 0 -1px #000,
+    1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+
+}
+.dialog .inputContainer {
+    background: rgba(0,0,0,.95);
+    border: 2px solid #fff;
+    border-radius: .5em;
+    height: 2.5em;
+    width: 100%;
+    display: flex;
+    padding: 0 .5em;
+}
+.dialog .input {
+    width: 100%;
+    outline: 0;
+    background: none;
+    caret-color: #969696;
+}
+.dialog .buttons {
+    margin-top: .25em;
+    padding: 0.25em;
+    gap: 1.25em;
+    display: flex;
+    justify-content: center;
+}
+.dialog .buttons .button {
+    font-size: .95em;
+    background: rgba(0,0,0,.95);
+    padding: .2em .8em;
+    border: 2px solid #fff;
+    border-radius: .6em;
+    letter-spacing: .5px;
+    user-select: none;
+}
+.dialog .buttons .button:hover{
+    border: 2px solid #b12026;
+    transform: translateY(-1px);
+}
